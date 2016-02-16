@@ -6,8 +6,8 @@
   <body>
     <div class = "container">
       <header>
-        <h1> Hello Magnolia :-) </h1>
-        <p> This page blablabla the template name is "${def.name}".</p>
+        <h1>${content.title}</h1>
+        <p>${content.introText!}</p>
       </header>
     </div>
   </body>
