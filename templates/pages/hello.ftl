@@ -2,6 +2,7 @@
 <html>
   <head>
     <title> Hello Magnolia :-) </title>
+    [@cms.page /]
   </head>
   <body>
     <div class = "container">
