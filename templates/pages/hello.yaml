@@ -1,5 +1,20 @@
+# Template definition
+# holds the name, parameters, and references the script,...
+
 templateScript: /hello-magnolia/templates/pages/hello.ftl
 renderType: freemarker
 visible: true
 title: Hello
 dialog: hello-magnolia:pages/hello
+
+# adding the areas
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+#      textImage:
+        # this is a standard component.
+#        id: mte:components/textImage
+      quotation:
+        # this component was created by me, in the hello-magnolia module.
+        id: hello-magnolia:components/quotation

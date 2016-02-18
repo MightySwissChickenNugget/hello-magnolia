@@ -1,9 +1,12 @@
+# name & fields.
+# the class determines the type of field
+# i use the name of the field to access the content later
 form:
   tabs:
     - name: tabText
       label: Texts
       fields:
-        - name: title # name of the field
+        - name: title # name of the field. will be used to reference the content
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition #type of field
           label: title
         - name: introText
